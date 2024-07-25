@@ -1,0 +1,20 @@
+/* .boton {
+    background-color: coral;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.boton:hover {
+    background-color: steelblue;
+    color: white;
+} */
+
+
+
+ /* tabla de valores */
+
+td{
+    border:  dashed darkseagreen;
+}
