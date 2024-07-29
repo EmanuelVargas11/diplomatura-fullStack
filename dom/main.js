@@ -61,6 +61,7 @@ if (!button.classList.contains('boton')) {
 
 
 
+
 // // acceso al DOM 
 
 // // let btn = document.getElementsByClassName('boton')
