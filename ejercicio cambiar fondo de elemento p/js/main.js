@@ -1,5 +1,4 @@
 
-
 // accedemos al DOM | seleccionamos el button
 const boton = document.querySelector('.boton')
 boton.innerText = 'Cambiar Color'
@@ -10,10 +9,10 @@ const parrafo = document.querySelector('.parrafo')
 
 
 // array con los colores que deberia cambiar el fondo cada vez hagamos click
-let colores = ['', '','green', 'blue', 'red', 'brown', 'blueviolet', 'yellowgreen', 'turquoise']
+let colores = ['', '','green', 'blue', 'red', 'while', 'brown', 'blueviolet', 'yellowgreen', 'turquoise' ]
 
 // contador
-let coloresRandom = ''
+let coloresRandom = '';
 
 
 // al hacer click cambia el fondo del elemento P a coral
