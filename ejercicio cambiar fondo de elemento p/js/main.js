@@ -6,48 +6,57 @@ boton.innerText = 'Cambiar Color'
 // seleccionamos el elemento P
 const parrafo = document.querySelector('.parrafo')
 
+parrafo.innerText = 'lorem20'
 
 
 // array con los colores que deberia cambiar el fondo cada vez hagamos click
-let colores = ['', '','green', 'blue', 'red', 'while', 'brown', 'blueviolet', 'yellowgreen', 'turquoise' ]
+const colores = ['white','blue', 'green', 'red', 'yellow', 'brown', 'blueviolet', 'yellowgreen', 'turquoise' ]
 
 // contador
-let coloresRandom = '';
+let coloresRandom = 0;
 
 
 // al hacer click cambia el fondo del elemento P a coral
 // boton.addEventListener('click', () => {
-
-//     parrafo.style.backgroundColor = 'coral'
-
-// } )
-
-
-
-function cambiarColoresFondo() {
+    
+    //     parrafo.style.backgroundColor = 'coral'
+    
+    // } )
     
     
     
-    
-    if (coloresRandom++ % colores.length) {
-        // parrafo.style.backgroundColor = colores[0]
-        // parrafo.style.backgroundColor = colores.length
-        // parrafo.style.backgroundColor = colores.coloresRandom
-        parrafo.style.backgroundColor = colores[coloresRandom]
+    function cambiarColoresFondo() {
+      
+            parrafo.style.backgroundColor = colores[coloresRandom]
+            
+            coloresRandom++
+            if (coloresRandom == colores.length) {
+                coloresRandom = 0
+
+
+                
+                
+            }
+            
+        }
         
-        
-
-        console.log('esta cambiando de color');
-        
-    }
+        boton.addEventListener('click', cambiarColoresFondo)
 
 
 
-}
 
-boton.addEventListener('click', cambiarColoresFondo)
+
+
+
+
+
 
 // console.log(cambiarColoresFondo());
+
+
+
+
+
 
 
 
