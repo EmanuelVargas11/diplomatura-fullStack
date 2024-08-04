@@ -57,39 +57,36 @@
 
 
     
-const numerosAleatorios = ["20", "15", "12314", "123", "125", "567", "8", "785", "23", "12", "34", "56", "5464", "13", "16", "25", "97", "14", "78", "31313", "3132132" ]
+const numerosAleatorios = ["20", "15", "12314", "123", "125", "567", "8"]
+// const numerosAleatorios = ["1", "2", "3", "4", ]
 
-const numerosCuadrados = 'Los siguiente que imprime son los cuadrados del array aleatorio: ' 
+
+const textoIndicaCuadrados = 'Los siguiente que imprime son los cuadrados del array aleatorio: ' 
+
+
+
 
 
 for (let i = 0; i < numerosAleatorios.length; i++) {
+    const IndiceAlCuadrado = numerosAleatorios[i] **2;
+    // console.log(element);
+
     
 
-    if (numerosAleatorios[i] %2 == 0) {
 
 
-        console.log(`${numerosCuadrados} ${numerosAleatorios[i]} `);              
+    if (IndiceAlCuadrado **2 ) {
+
+         console.log(`${textoIndicaCuadrados} ${IndiceAlCuadrado} `);
+
+        
         
     }
     
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
 
