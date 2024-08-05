@@ -68,20 +68,11 @@ const textoIndicaCuadrados = 'Los siguiente que imprime son los cuadrados del ar
 
 
 for (let i = 0; i < numerosAleatorios.length; i++) {
-    const IndiceAlCuadrado = numerosAleatorios[i] **2;
+    const IndiceAlCuadrado = numerosAleatorios[i] * numerosAleatorios[i];
     // console.log(element);
 
+    console.log(`${textoIndicaCuadrados} ${IndiceAlCuadrado}`);
     
-
-
-
-    if (IndiceAlCuadrado **2 ) {
-
-         console.log(`${textoIndicaCuadrados} ${IndiceAlCuadrado} `);
-
-        
-        
-    }
     
 }
 
