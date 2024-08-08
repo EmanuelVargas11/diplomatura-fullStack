@@ -1,6 +1,6 @@
 // Crear un array vacío, que sea llenado con solo números pares del 1 al 10. 
 // Pista: la condición se basa en el índice.
-// let numeros =["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+// let numeros =["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]  array de prueba
 
 
 
