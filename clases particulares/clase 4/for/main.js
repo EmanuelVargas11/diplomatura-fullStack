@@ -70,7 +70,7 @@
 const frase = "Las Sombras Se Alargan Mientras El Sol Se Oculta En El Horizonte."
 
 
-let letrasMayus = []
+let mostrarMayus = []
 
 
 
@@ -81,15 +81,15 @@ for (let i = 0; i < frase.length; i++) {
     const element = frase[i];
     console.log(element);
     
-    const consonantesMayus = frase[i]
+    const buscarMayusculas = frase[i]
 
 
 
 
-    if (consonantesMayus >= "A" && consonantesMayus <= "Z" )  {
+    if (buscarMayusculas >= "A" && buscarMayusculas <= "Z" )  {
 
          
-         letrasMayus.push(consonantesMayus)
+         mostrarMayus.push(mayusculas)
         
 
     }
