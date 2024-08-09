@@ -5,6 +5,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* titulo */
 .titulo {
     background-color: #F97300;
@@ -14,31 +26,50 @@
     font-size: 35px;
     margin-bottom: 5px;
 }
+
+/* boton para modo oscuro */
+.boton {
+    background-color: steelblue;
+    color: #e5e9e5;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.boton:hover{
+    background-color: rgb(27, 108, 175);
+}
+
 /* delimitacion del navbar */
+.navbar {    
+    border-radius: 0 0  5px 5px;
+    padding: 2px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 30px;    
+}
 .navbar a {
-   color: #EF9595;
+    color: #EF9595;
     padding: 3px 12px;
     margin: 5px;
     border: 2px solid #EF9595;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 700;
+    cursor: pointer;
 }
+/* estilo al navbar */
 .navbar a:hover {
     background-color: #EF9595;
     color: #e5e9e5;
     font-weight: 700;
 }
-.navbar {    
-    border-radius: 0 0  5px 5px;
-    padding: 2px;
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 30px;    
-}
-
 /* contenido grid */
 
 .content {
@@ -59,7 +90,7 @@
     color: #EF9595;
     border: 2px solid #EF9595;
     border-radius: 5px;
-    }
+}
 
 .card1 {grid-area: uno;}
 .card2 {grid-area: dos;}
@@ -68,4 +99,32 @@
 .card:hover {
     background-color: #EF9595;
     color: #e5e9e5;
+}
+
+/* codear el body para modo oscuro */
+/* body */
+.cuerpo{
+    background-color:  darkgrey;
+    
+}
+/* boton para hacer cambio modo oscuro/claro */
+.modoOscuro {
+    background-color: rgb(53, 52, 52);
+    
+}
+.tituloModoOscuro{
+    background-color: #2d2621;
+    color: bisque;
+}
+
+.navBarOscuro a{
+    background-color: sienna;
+    color: darkgray;
+    border: none;
+}
+
+.cardsOscuro{
+    background-color: sienna;
+    color: darkgray;
+    border: none;
 }
