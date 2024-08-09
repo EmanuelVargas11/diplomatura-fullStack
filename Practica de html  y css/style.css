@@ -84,7 +84,8 @@ body{
     .conteiner{
         margin: 25px;
         padding: 0 auto;
-
+        width: auto;
+      
 }
 
 }
