@@ -123,7 +123,7 @@
     border: none;
 }
 
-.cardsOscuro{
+.cardsOscuro .card{
     background-color: sienna;
     color: darkgray;
     border: none;

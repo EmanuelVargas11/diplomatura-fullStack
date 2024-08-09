@@ -64,7 +64,7 @@ const cuerpo = document.querySelector('#cueporBody')
 const tituloPrinci = document.querySelector('#tituloPrincipal')
 const navBar = document.querySelector('#navBar')
 
-const cards = document.querySelector('#cards')
+const cards = document.querySelector('.content')
 
 
 
@@ -73,6 +73,6 @@ boton.addEventListener('click', function() {
     cuerpo.classList.toggle('modoOscuro')
     tituloPrinci.classList.toggle('tituloModoOscuro')
     navBar.classList.toggle('navBarOscuro')
-    cards.classList.toggle('')
+    cards.classList.toggle('cardsOscuro')
     
 })
