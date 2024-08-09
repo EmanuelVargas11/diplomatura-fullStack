@@ -26,7 +26,7 @@
 
 
 
-// const numerosAleatorios = [54, 6, 18, 11, 70, 85, 8, 65]
+const numerosAleatorios = [54, 6, 18, 11, 70, 85, 8, 65]
 
 // let numerosPares = []
 
@@ -54,6 +54,15 @@
     
 //     console.log('estos numeros no cumplen con la condicion: ', noCumplenEstosNum);
 
+let numeroPares = numerosAleatorios.filter(num=> num %2 ===0)
+
+let agregarNumero = numeroPares.map(num => num + 4)
+
+
+
+
+console.log('desde filter', numeroPares);
+console.log('desde filter y map', agregarNumero);
 
 
 
@@ -67,37 +76,37 @@
 
 
 
-const frase = "Las Sombras Se Alargan Mientras El Sol Se Oculta En El Horizonte."
+// const frase = "Las Sombras Se Alargan Mientras El Sol Se Oculta En El Horizonte."
 
 
-let mostrarMayus = []
+// let mostrarMayus = []
 
 
 
 
 
-for (let i = 0; i < frase.length; i++) {
+// for (let i = 0; i < frase.length; i++) {
     
-    const element = frase[i];
-    console.log(element);
+//     const element = frase[i];
+//     console.log(element);
     
-    const buscarMayusculas = frase[i]
+//     const buscarMayusculas = frase[i]
 
 
 
 
-    if (buscarMayusculas >= "A" && buscarMayusculas <= "Z" )  {
+//     if (buscarMayusculas >= "A" && buscarMayusculas <= "Z" )  {
 
          
-         mostrarMayus.push(mayusculas)
+//          mostrarMayus.push(buscarMayusculas)
         
 
-    }
+//     }
     
     
-}
+// }
 
-console.log(letrasMayus);
+// console.log(mostrarMayus);
 
 
 
