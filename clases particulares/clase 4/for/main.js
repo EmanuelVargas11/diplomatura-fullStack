@@ -1,6 +1,6 @@
 // Crear un array vacío, que sea llenado con solo números pares del 1 al 10. 
 // Pista: la condición se basa en el índice.
-// let numeros =["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+// let numeros =["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]  array de prueba
 
 
 
@@ -70,7 +70,7 @@
 const frase = "Las Sombras Se Alargan Mientras El Sol Se Oculta En El Horizonte."
 
 
-let letrasMayus = []
+let mostrarMayus = []
 
 
 
@@ -81,15 +81,15 @@ for (let i = 0; i < frase.length; i++) {
     const element = frase[i];
     console.log(element);
     
-    const consonantesMayus = frase[i]
+    const buscarMayusculas = frase[i]
 
 
 
 
-    if (consonantesMayus >= "A" && consonantesMayus <= "Z" )  {
+    if (buscarMayusculas >= "A" && buscarMayusculas <= "Z" )  {
 
          
-         letrasMayus.push(consonantesMayus)
+         mostrarMayus.push(mayusculas)
         
 
     }
